@@ -10,7 +10,7 @@ u=os.getcwd()
 y=os.listdir(u)
 
 #y=["yourfilename1","yourfilename2"]
-y=["str_30loc_2lines.str"]
+
 for ficheiro in y:
     if ".str" in ficheiro:
         fich=file(ficheiro,"r")
