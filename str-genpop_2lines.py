@@ -23,7 +23,7 @@ for ficheiro in y:
             a=linhas[0].split("\t")
             for l in a:
                 if l!="":
-                    u=l.split("\t")
+                    u=l.split(" ")
                     for locit in u:
                         loci.append(l.replace("\t","").replace(" ",""))
         else:
