@@ -25,7 +25,9 @@ for ficheiro in y:
                 if l!="":
                     u=l.split(" ")
                     for locit in u:
-                        loci.append(l.replace("\t","").replace(" ",""))
+                        w=locit.replace("\t","").replace(" ","").split(".")[0]
+                        if w!="":
+                            loci.append(w)
         else:
             for x in range(nloc):
                 loci.append("loc"+str(x))
